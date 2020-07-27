@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <userSettings>
+        <OrzeszekTimer.Settings>
+            <setting name="AlarmSound" serializeAs="String">
+                <value>Loud beep.wav</value>
+            </setting>
+            <setting name="AlwaysOnTop" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="CloseOnFinish" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="CountUp" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="CurrentEnd" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CurrentStart" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="FlashOnFinish" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="LastTimeSpan" serializeAs="String">
+                <value>00:01:02</value>
+            </setting>
+            <setting name="LoopNotification" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="LoopTimer" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="PopupOnFinish" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="RememberTimerOnClose" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ScaleInterface" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowTimerInTray" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerRunning" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="WindowHeight" serializeAs="String">
+                <value>150.4</value>
+            </setting>
+            <setting name="WindowLeft" serializeAs="String">
+                <value>1011.2</value>
+            </setting>
+            <setting name="WindowSettingsSaved" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="WindowState" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="WindowTop" serializeAs="String">
+                <value>344.8</value>
+            </setting>
+            <setting name="WindowWidth" serializeAs="String">
+                <value>300</value>
+            </setting>
+        </OrzeszekTimer.Settings>
+    </userSettings>
+</configuration>
