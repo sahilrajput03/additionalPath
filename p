@@ -1,1 +1,1 @@
-p.cmd
+p.bat
