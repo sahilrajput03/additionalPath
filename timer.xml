@@ -24,7 +24,7 @@
                 <value>True</value>
             </setting>
             <setting name="LastTimeSpan" serializeAs="String">
-                <value>00:01:02</value>
+                <value>00:00:01</value>
             </setting>
             <setting name="LoopNotification" serializeAs="String">
                 <value>True</value>
