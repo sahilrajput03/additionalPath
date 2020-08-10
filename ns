@@ -1,0 +1,2 @@
+echo Executing: npm start
+npm start

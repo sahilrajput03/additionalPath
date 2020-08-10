@@ -9,3 +9,5 @@ echo o npm i -g create-react-app
 echo o create-react-app my-app
 echo o nodemon -h
 echo o nodemon -h options [All settings are here]
+echo o fetcher --url=https://someurlhere/somefolder/fromGithub
+
