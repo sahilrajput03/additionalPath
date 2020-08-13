@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Executing: npm i -g $*
+npm i -g $*
