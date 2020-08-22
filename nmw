@@ -1,0 +1,4 @@
+#!/bin/bash
+#Actually this script is for suppressing waring when using import with deafult(like import statements which are not supported by node by default, rather its under experimental flag.) Actaully thats message is 
+# (node:8448) ExperimentalWarning: The ESM module loader is experimental
+nmw.bat $*
