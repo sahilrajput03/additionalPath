@@ -55,5 +55,5 @@ const myFunction = async (array) => {
   console.log('\n\nTask finished!!\nExiting Program.')
   // console.log('\n\nTask finished!!\nExiting Program in 10 seconds.')
   // setTimeout(() => console.log("Bye!!"), 10000)
-  // setTimeout(() => console.log("Bye!!"), 10_000) This doesn't work with pkg to pack the executable, coz it requires you to have enabled numbericSeparator. And this specific is not so important for us, so just changinng it to 10000 would do our work too.
+  // setTimeout(() => console.log("Bye!!"), 10_000) This doesn't work with pkg to pack the executable, coz it requires you to have enabled numericSeparator. And this specific is not so important for us, so just changing it to 10000 would do our work too.
 })()

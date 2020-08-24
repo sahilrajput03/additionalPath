@@ -1,3 +1,4 @@
+#!/bin/bash
 #start am.bat $*
 #I am using start to run this command in new cmd prompt, coz mintty doesn't show live progress via bat file.
 #Thought the solution would be to use bash syntax to run in inside minnty only. GONNA DO IT SOON.
@@ -8,5 +9,5 @@ then
 else
     echo TESTING::Phase- Parameters $*
     $($*) || alert
-#So, above line executes the all the given arguemtns as the commadn and always returns false(thats our key), so we use || operator to execute alert on completiong. Yikess!!!  
+#So, above line executes the all the given arguments as the command and always returns false(thats our key), so we use || operator to execute alert on completion. Yikes!!!  
 fi
