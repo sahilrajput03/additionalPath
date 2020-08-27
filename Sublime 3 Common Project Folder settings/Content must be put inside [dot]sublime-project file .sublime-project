@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["node_modules",".expo", ".vscode",".expo-shared"],
+			"file_exclude_patterns": ["*.sublime-workspace","*.lnk","package-lock.json"]
+		}
+	]
+}
