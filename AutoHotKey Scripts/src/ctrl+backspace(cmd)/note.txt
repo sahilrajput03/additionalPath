@@ -1,0 +1,8 @@
+• This script also does the work for ctrl+u which deletes the entire line, works in mintty, git-bash too.
+
+• I have customised this script for support for ctrl+backspace.(originally it supported for ctrl+w only )
+• Also, to make it working with administrator cmd, you need to run it via admin, or BETTER set its compartibility as administrator. Heck, Yess!!
+
+• Do the work in screenshot work too, that's a must to do, otherwise it won't work.
+
+• Ctrl+v will work now!!!!! Yikess!!!
