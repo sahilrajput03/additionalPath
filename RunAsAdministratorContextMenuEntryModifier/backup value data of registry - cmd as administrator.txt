@@ -1,0 +1,1 @@
+PowerShell.exe -windowstyle hidden -Command "Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs"
