@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys]
+@="FISH Shell here"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys\command]
+@="C:\\msys64\\usr\\bin\\mintty.exe -- fish"
