@@ -1,0 +1,7 @@
+#!/bin/bash
+echo
+echo nmt: Executes nodemon -q nodemonTest.js
+echo nmt-: Opens file with Vscode while executing nmt.
+echo nmtc: Create nodemonTest.js file and executes nmt.
+echo nmtc-: Opens file with Vscode while executing nmtc.
+echo

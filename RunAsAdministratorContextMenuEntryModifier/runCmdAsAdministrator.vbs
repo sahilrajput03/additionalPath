@@ -26,3 +26,5 @@ Set objShell = Nothing
 
 ' Resource for escaping: 
 ' http://www.rlmueller.net/PowerShellEscape.htm#:~:text=The%20PowerShell%20escape%20character%20is,interactively%2C%20or%20running%20PowerShell%20scripts.
+' Resource for parameter utilization.
+' http://www.itgeared.com/articles/1075-how-to-pass-parameters-to-vbscript/#:~:text=Use%20the%20WScript.,the%20parameters%20that%20were%20passed.&text=You%20can%20use%20the%20approach,to%20reuse%20your%20VBScript%20program.

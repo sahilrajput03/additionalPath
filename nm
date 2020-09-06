@@ -1,2 +1,5 @@
 #!/bin/bash
-nm.bat $*
+echo 
+echo Executing: nodemon -q $*
+nodemon -q $*
+# nm.bat $* This line was earlier coded, but its bad, coz running throuhg cmd, doens't allow to terminate with command ctrl+c, so above method works fine. Yikess.

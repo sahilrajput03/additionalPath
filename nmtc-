@@ -1,0 +1,10 @@
+#!/bin/bash
+echo  > nodemonTest.js
+echo  >> nodemonTest.js
+echo  >> nodemonTest.js
+echo  >> nodemonTest.js
+echo  >> nodemonTest.js
+echo "/* Do some testing above this line. */ console.log('--Program Ended--'); for (let i = 0; i < 1; i++) {console.log('\n\n');};" >> nodemonTest.js
+
+code nodemonTest.js
+nmt
