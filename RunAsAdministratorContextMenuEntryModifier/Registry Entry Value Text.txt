@@ -1,1 +1,1 @@
-"wscript.exe" "C:\additionalPath\sstesting\runCmdAsAdministrator.vbs"
+"wscript.exe" "C:\additionalPath\RunAsAdministratorContextMenuEntryModifier\runCmdAsAdministrator.vbs" "%V"

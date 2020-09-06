@@ -1,6 +1,18 @@
+Dim Arg, var1, var2
+Set Arg = WScript.Arguments
+var1 = Arg(0)
 Set objShell = CreateObject("WScript.Shell")
-objShell.Run "CMD /C START /B " & objShell.ExpandEnvironmentStrings("%SystemRoot%") & "\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -Command Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs", 0, False
+objShell.Run "CMD /C START /B " & objShell.ExpandEnvironmentStrings("%SystemRoot%") & "\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -Command Start-Process cmd.exe -Verb RunAs -ArgumentList '/s,/k,pushd," & var1 & "'", 0, False
+' Above is the 100% working code for open cmd with admin. COOL
+' LEARN: Below line saves the path of current file to the variable scriptdir.
+' scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
+
+' LEARN: Below is the earlier version of the running script with defining %cd% as the parameter path(see in end of line) .
+' objShell.Run "CMD /C START /B " & objShell.ExpandEnvironmentStrings("%SystemRoot%") & "\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -Command Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%cd%' -Verb RunAs", 0, False
 Set objShell = Nothing
+' Note: I have removed %v from the above line, coz it was creating error like path cannot be specified in cmd. Yikes, that solved.
+' LEARN: Below is the original earlier version which seemed to work but didn't work out actually coz I had to use argument value which I supply from the context menu as %V and access in this file using param1 ( var1 in line3).
+' objShell.Run "CMD /C START /B " & objShell.ExpandEnvironmentStrings("%SystemRoot%") & "\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -Command Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs", 0, False
 
 ' My comments below ~ sahilrajput
 ' Original Snippet1
