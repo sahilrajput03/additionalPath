@@ -1,0 +1,2 @@
+KeepOnTop works via pressing hotkey - 
+shift + win + i
