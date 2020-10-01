@@ -1,0 +1,5 @@
+- COMMAND
+colortool -b solarized_dark
+
+- Article
+https://www.windowscentral.com/how-change-command-prompts-color-scheme-windows-10
