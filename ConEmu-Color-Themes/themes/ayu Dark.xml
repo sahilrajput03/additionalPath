@@ -1,0 +1,25 @@
+        <key name="Palette1" modified="2018-08-07 12:51:32" build="150305">
+          <value name="Name" type="string" data="ayu Dark"/>
+          <value name="ExtendColors" type="hex" data="00"/>
+          <value name="ExtendColorIdx" type="hex" data="10"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="00151515"/>  <!-- Black (Background) -->
+          <value name="ColorTable01" type="dword" data="00ffaa82"/>  <!-- DarkBlue (Module names in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="00187626"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable03" type="dword" data="00d6ccb2"/>  <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+          <value name="ColorTable04" type="dword" data="000098ff"/>  <!-- DarkRed (Diff remove in Git) -->
+          <value name="ColorTable05" type="dword" data="00b380bb"/>  <!-- DarkMagenta (Setup questions in Sphinx) -->
+          <value name="ColorTable06" type="dword" data="006779ab"/>  <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="00ffffee"/>  <!-- Gray (Default Text) -->
+          <value name="ColorTable08" type="dword" data="00b8b0a1"/>  <!-- DarkGray (Parameters) -->
+          <value name="ColorTable09" type="dword" data="00ffaa82"/>  <!-- Blue -->
+          <value name="ColorTable10" type="dword" data="008de8c3"/>  <!-- Green -->
+          <value name="ColorTable11" type="dword" data="00ffdd89"/>  <!-- Cyan -->
+          <value name="ColorTable12" type="dword" data="007053ff"/>  <!-- Red -->
+          <value name="ColorTable13" type="dword" data="007871f0"/>  <!-- Magenta -->
+          <value name="ColorTable14" type="dword" data="006bcbff"/>  <!-- Yellow (Exception in IPython) -->
+          <value name="ColorTable15" type="dword" data="00f5f5f5"/>  <!-- White (Number, Git diff text) -->
+        </key>

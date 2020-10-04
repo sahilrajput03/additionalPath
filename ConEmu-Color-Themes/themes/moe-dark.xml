@@ -1,0 +1,23 @@
+        <key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+	  <value name="Name" type="string" data="moe-dark"/>
+	  <value name="TextColorIdx" type="hex" data="10"/>
+	  <value name="BackColorIdx" type="hex" data="10"/>
+	  <value name="PopTextColorIdx" type="hex" data="10"/>
+	  <value name="PopBackColorIdx" type="hex" data="10"/>
+	  <value name="ColorTable00" type="dword" data="00303030"/>
+	  <value name="ColorTable01" type="dword" data="00ff5b1f"/>
+	  <value name="ColorTable02" type="dword" data="0000ffaf"/>
+	  <value name="ColorTable03" type="dword" data="00ffff87"/>
+	  <value name="ColorTable04" type="dword" data="002929ef"/>
+	  <value name="ColorTable05" type="dword" data="00ff8ad1"/>
+	  <value name="ColorTable06" type="dword" data="000087ff"/>
+	  <value name="ColorTable07" type="dword" data="00c6c6c6"/>
+	  <value name="ColorTable08" type="dword" data="00b2b2b2"/>
+	  <value name="ColorTable09" type="dword" data="00d7af5f"/>
+	  <value name="ColorTable10" type="dword" data="0000dba1"/>
+	  <value name="ColorTable11" type="dword" data="00afd700"/>
+	  <value name="ColorTable12" type="dword" data="004b4bff"/>
+	  <value name="ColorTable13" type="dword" data="00a34eff"/>
+	  <value name="ColorTable14" type="dword" data="004fe9fc"/>
+	  <value name="ColorTable15" type="dword" data="00e7fdfd"/>
+        </key>

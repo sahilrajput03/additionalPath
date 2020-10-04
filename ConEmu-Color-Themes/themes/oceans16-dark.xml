@@ -1,0 +1,23 @@
+        <key name="Palette1" modified="2016-04-16 18:37:50" build="160329">
+          <value name="Name" type="string" data="Oceans16 Dark"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="00453830"/>
+          <value name="ColorTable01" type="dword" data="00b17f66"/>
+          <value name="ColorTable02" type="dword" data="0065ac02"/>
+          <value name="ColorTable03" type="dword" data="0098c18f"/>
+          <value name="ColorTable04" type="dword" data="006a61bf"/>
+          <value name="ColorTable05" type="dword" data="00eca6ca"/>
+          <value name="ColorTable06" type="dword" data="008eaaef"/>
+          <value name="ColorTable07" type="dword" data="00e6d4d0"/>
+          <value name="ColorTable08" type="dword" data="00b09788"/>
+          <value name="ColorTable09" type="dword" data="00e7ab77"/>
+          <value name="ColorTable10" type="dword" data="009aca8f"/>
+          <value name="ColorTable11" type="dword" data="00c0c67b"/>
+          <value name="ColorTable12" type="dword" data="009491e3"/>
+          <value name="ColorTable13" type="dword" data="007c79db"/>
+          <value name="ColorTable14" type="dword" data="00a3d7dd"/>
+          <value name="ColorTable15" type="dword" data="00e6d4d0"/>
+        </key>
