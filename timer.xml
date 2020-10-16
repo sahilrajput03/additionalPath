@@ -3,13 +3,13 @@
     <userSettings>
         <OrzeszekTimer.Settings>
             <setting name="AlarmSound" serializeAs="String">
-                <value>Loud beep.wav</value>
+                <value>6_ready set go - Humble.wav</value>
             </setting>
             <setting name="AlwaysOnTop" serializeAs="String">
                 <value>False</value>
             </setting>
             <setting name="CloseOnFinish" serializeAs="String">
-                <value>False</value>
+                <value>True</value>
             </setting>
             <setting name="CountUp" serializeAs="String">
                 <value>False</value>
@@ -27,7 +27,7 @@
                 <value>00:00:01</value>
             </setting>
             <setting name="LoopNotification" serializeAs="String">
-                <value>True</value>
+                <value>False</value>
             </setting>
             <setting name="LoopTimer" serializeAs="String">
                 <value>False</value>
@@ -51,7 +51,7 @@
                 <value>150.4</value>
             </setting>
             <setting name="WindowLeft" serializeAs="String">
-                <value>1011.2</value>
+                <value>891.2</value>
             </setting>
             <setting name="WindowSettingsSaved" serializeAs="String">
                 <value>True</value>
@@ -60,7 +60,7 @@
                 <value>Normal</value>
             </setting>
             <setting name="WindowTop" serializeAs="String">
-                <value>344.8</value>
+                <value>442.40000000000003</value>
             </setting>
             <setting name="WindowWidth" serializeAs="String">
                 <value>300</value>

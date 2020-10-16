@@ -1,1 +1,1 @@
-start timer 1 seconds
+start timer -startMinimized 1 seconds
