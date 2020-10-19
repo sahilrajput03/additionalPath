@@ -1,0 +1,1 @@
+tsnd --clear --quiet %*

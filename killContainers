@@ -1,0 +1,7 @@
+#!/bin/bash
+docker kill $(docker ps -q)
+#Note: this file doesn't work with git-bash idk why!!
+#This file works good as it is like above.
+#For fish shell (if you are executing it from cli, you must use it like below)
+# docker kill (docker ps -q)
+# https://stackoverflow.com/questions/19211855/fish-equivalent-of-bash-command-notation
