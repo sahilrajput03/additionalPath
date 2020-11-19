@@ -48,10 +48,10 @@
                 <value>False</value>
             </setting>
             <setting name="WindowHeight" serializeAs="String">
-                <value>150.4</value>
+                <value>28.8</value>
             </setting>
             <setting name="WindowLeft" serializeAs="String">
-                <value>891.2</value>
+                <value>0</value>
             </setting>
             <setting name="WindowSettingsSaved" serializeAs="String">
                 <value>True</value>
@@ -60,10 +60,10 @@
                 <value>Normal</value>
             </setting>
             <setting name="WindowTop" serializeAs="String">
-                <value>442.40000000000003</value>
+                <value>0</value>
             </setting>
             <setting name="WindowWidth" serializeAs="String">
-                <value>300</value>
+                <value>142.4</value>
             </setting>
         </OrzeszekTimer.Settings>
     </userSettings>

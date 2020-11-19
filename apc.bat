@@ -2,4 +2,6 @@
 echo Alert : Current working directory changes in command prompt.
 c:
 cd C:\additionalPath
-code .
+sl .
+REM code .
+REM Above command was to use visual studio code
