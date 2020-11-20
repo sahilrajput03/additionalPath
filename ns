@@ -1,4 +1,5 @@
 #!/bin/bash
 echo Executing: npm start
 echo _
-npm start -s
+# npm start -s
+echo Tip: USE ys, ys1, ys2, ys3,.. ys6.
