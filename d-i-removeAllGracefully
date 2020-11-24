@@ -1,0 +1,7 @@
+#!/usr/bin/env fish
+if docker images | grep \\n > /dev/null
+	docker rmi (docker images -q)
+	echo "#My Log: Removed all above images."
+else
+	echo "#My Log: No images are present locally. ~ Unknown Guy"
+end

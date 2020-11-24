@@ -1,1 +1,1 @@
-let log = console.log
+let log = console.log 

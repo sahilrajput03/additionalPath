@@ -1,1 +1,2 @@
-sl.bat
+#!/bin/bash
+sl.bat > null
