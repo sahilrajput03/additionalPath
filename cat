@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+echo "Old cat executables for bash and cmd environment have been renmaed to _cat for easy deprecation learnings of my own."
+echo "#My Log: Remember to use `bat` instead. Below output is from `bat `cli tool. ~ Unknown Guy."
+
+bat $argv
