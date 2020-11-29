@@ -1,0 +1,3 @@
+`fishbashrc ` alias takes you to `vi ~/.config/fish/config.fish`
+
+~/.config/fish/sahil_custom_fish_path/
