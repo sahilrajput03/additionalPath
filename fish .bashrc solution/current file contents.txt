@@ -1,5 +1,0 @@
-alias e='/c/Windows/explorer .'
-alias ap='cd /c/additionalPath'
-alias vi='vim'
-alias sp='cd /c/Users/chetan/AppData/Roaming/code/User/snippets/'
-alias docker='echo hello'

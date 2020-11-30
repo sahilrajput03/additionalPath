@@ -1,0 +1,10 @@
+# Executing below code in direct fish environment:
+
+for f in ~/.config/fish/sahil_custom_fish_path/*.fish
+                 echo $f
+             end
+
+# Will output:-
+/home/chetan/.config/fish/sahil_custom_fish_path/a.fish
+/home/chetan/.config/fish/sahil_custom_fish_path/coco_2.fish
+/home/chetan/.config/fish/sahil_custom_fish_path/mdc.fish

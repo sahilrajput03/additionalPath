@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
-if docker ps -q | grep "" > /dev/null
-	docker stop (docker ps -aq)
+if _docker ps -q | grep "" > /dev/null
+	docker stop (_docker ps -aq)
 else
 	echo "#My Log: No containers are running right now. ~ Unknown guy"
 end
