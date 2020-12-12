@@ -48,7 +48,7 @@
                 <value>False</value>
             </setting>
             <setting name="WindowHeight" serializeAs="String">
-                <value>28.8</value>
+                <value>28</value>
             </setting>
             <setting name="WindowLeft" serializeAs="String">
                 <value>0</value>
@@ -63,7 +63,7 @@
                 <value>0</value>
             </setting>
             <setting name="WindowWidth" serializeAs="String">
-                <value>142.4</value>
+                <value>144.8</value>
             </setting>
         </OrzeszekTimer.Settings>
     </userSettings>

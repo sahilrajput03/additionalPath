@@ -1,0 +1,1 @@
+"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in "C:\additionalPath\AutoHotKey Scripts\let log_js_BigScript.ahk"
