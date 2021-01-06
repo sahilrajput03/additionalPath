@@ -1,0 +1,1 @@
+"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in "C:\additionalPath\AutoHotKey Scripts\Resize with ctrl+shift+x.ahk"

@@ -1,0 +1,1 @@
+"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in "C:\additionalPath\AutoHotKey Scripts\Esc-Esc___Capsplock-Esc(Tip - Use shift+capslock to use capslock).ahk"

@@ -1,0 +1,4 @@
+$CapsLock::
+	Send {Esc}
+return
+

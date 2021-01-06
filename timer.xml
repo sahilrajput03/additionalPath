@@ -48,7 +48,7 @@
                 <value>False</value>
             </setting>
             <setting name="WindowHeight" serializeAs="String">
-                <value>28</value>
+                <value>36</value>
             </setting>
             <setting name="WindowLeft" serializeAs="String">
                 <value>0</value>
