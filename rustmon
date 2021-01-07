@@ -1,4 +1,9 @@
 #!/bin/bash
-nodemon -q -e rs -x "rustc $*.rs && $*"
-#Usage: rustmon <filename without extension>
+#nodemon -q -e rs -x "rustc $*.rs && $*"
+#Usage(dreprecated): rustmon <filename without extension>
 #Also, now you can use `rmon fileNameWithoutExtension` as rmon is a subscript of rustmon.
+
+
+#Usage: rmon filename.rs
+t=${*%???}
+nodemon -q -e rs -x "rustc $* && $t"
