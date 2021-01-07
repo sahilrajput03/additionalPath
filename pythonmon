@@ -1,0 +1,4 @@
+#!/bin/bash
+nodemon -q -e py -x "python $*"
+#Usage: pythonmon <filename with extension>
+#Also, you can use `pmon filename.py` as it is subscript of pythonmon.

@@ -1,2 +1,4 @@
 #!/bin/bash
 nodemon -q -e java -x "javac $*.java && java $*"
+#Usage: javamon <filename without extension>
+#Also, you can now use `jmon fileNameWithoutExtension` which is a subscript of javamon.
