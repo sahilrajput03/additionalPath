@@ -1,13 +1,15 @@
+var cors = require('cors');
 const express = require('express');
 const app = express();
-var cors = require('cors');
 
-let log = console.log;
 app.use(cors());
 app.use(express.json());
 
+let log = console.log;
+
 app.get('/', (req, res) => {
   res.send('My blog app');
+  // res.status(201).send('If you want to send custom status code.');
 });
 
 app.get('/posts', (req, res) => {

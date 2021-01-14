@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "-------------------------------> ::RUNNING:: $*"
-$*
-echo
+echo "-------------------------------> ::RUNNING:: $@"
+eval $@
+#For explanation of eval, inline environment variable passing, export statement, please visit your gist with name `Learning bash`. Yikes!!
