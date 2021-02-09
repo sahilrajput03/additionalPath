@@ -1,0 +1,2 @@
+#!/bin/bash
+naked echo $DOCKER_HOST

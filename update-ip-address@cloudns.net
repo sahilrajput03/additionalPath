@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget -q --read-timeout=0.0 --waitretry=5 --tries=400 --background https://ipv4.cloudns.net/api/dynamicURL/?q=MzE2MTk0ODoyMjUxMzk2MTI6MDcwNTZkNDViNjE2MmZmOTY5ZTE5YWViYjY0YmRlMDJhMzg4NzBhYjFlOTRlODA0ZjUyMWQxZDBjZjBkZGFkNQ -O /c/tempLogs/1.txt
+
+wget -q --read-timeout=0.0 --waitretry=5 --tries=400 --background https://ipv4.cloudns.net/api/dynamicURL/?q=MzE2MTk0ODoyMjUxMzk2MjI6OTY4MWQyMTRmMzY1NWI4YmFjZTJmMTNjYTA1NWI3ZDQ3ZTNjM2U4YTI4ZTgwNWNiMjVhMTQyYWYzNzFkMmIyZg -O /c/tempLogs/2.txt
