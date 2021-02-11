@@ -5,7 +5,7 @@
 t=${*%?????}
 #echo $t #echoing complete file name
 #echo $* #echoing only file name without extension.
-nodemon --config /c/additionalPath/nodemon.json -q -e java -x "javac $* && java $t"
+nodemon -q -e java -x "javac $* && java $t"
 
 
 #Tip: Also, you can now use `jmon fileName.java` which is a subscript of javamon.
