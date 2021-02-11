@@ -1,5 +1,7 @@
 {
 	"events": {
-		"start": "reset || cls"
+		"start": "reset || cls",
+		"myComment": "https://github.com/remy/nodemon/blob/master/doc/cli/config.txt",
+		"myComment2": "https://github.com/remy/nodemon#config-files"
 	}
 }

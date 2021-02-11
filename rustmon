@@ -12,4 +12,5 @@ t=${*%???}
 #nodemon -q -e rs -x "rustc $* -o binary.exe && binary.exe" 
 #↑Deprecated coz it creates unnecessary pdb file which i don't want, so usig below command instead that used flag -> -Clink-arg=/DEBUG:NONE and thus no pdb file is generated now!
 
-nodemon --config /c/additionalPath/nodemon.json -q -e rs -x "rustc $* -o .binary.exe -Clink-arg=/DEBUG:NONE && .binary.exe"
+#nodemon --config /c/additionalPath/nodemon.json -q -e rs -x "rustc $* -o .binary.exe -Clink-arg=/DEBUG:NONE && .binary.exe"
+nodemon -q -e rs -x "rustc $* -o .binary.exe -Clink-arg=/DEBUG:NONE && .binary.exe" #Now, i am used to global ~/nodemon.json configs, yikes!!
