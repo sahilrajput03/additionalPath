@@ -1,0 +1,1 @@
+"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in "C:\additionalPath\AutoHotKey Scripts\Ctrl+click to f12 for sublime.ahk"

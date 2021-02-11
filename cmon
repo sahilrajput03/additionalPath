@@ -1,4 +1,4 @@
 #!/bin/bash
 t=${*%??}
 #nodemon -q -e c -x "gcc $* -o $t.exe && $t.exe"
-nodemon -q -e c -x "gcc $* -o binary && binary"
+nodemon --config /c/additionalPath/nodemon.json -q -e c -x "gcc $* -o binary && binary"

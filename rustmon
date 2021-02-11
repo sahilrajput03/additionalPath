@@ -6,4 +6,10 @@
 
 #Usage: rmon filename.rs
 t=${*%???}
-nodemon -q -e rs -x "rustc $* && $t"
+#nodemon -q -e rs -x "rustc $* && $t" 
+#↑Deprecated coz it creates too many things like fileName.exe and fileName.pdb file so it gets difficult to find the my program file. :(
+
+#nodemon -q -e rs -x "rustc $* -o binary.exe && binary.exe" 
+#↑Deprecated coz it creates unnecessary pdb file which i don't want, so usig below command instead that used flag -> -Clink-arg=/DEBUG:NONE and thus no pdb file is generated now!
+
+nodemon --config /c/additionalPath/nodemon.json -q -e rs -x "rustc $* -o .binary.exe -Clink-arg=/DEBUG:NONE && .binary.exe"
