@@ -1,1 +1,1 @@
-subl .
+subl %*

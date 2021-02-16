@@ -1,0 +1,8 @@
+#!/bin/bash
+cargo watch -x run -c -q
+
+# -x is for providing command i.e., `run`.
+# -c is clear screen after each execution.
+# -q is for suppressing output from cargo-watch itself
+# READ ABOUT `cargo watch`: https://docs.rs/crate/cargo-watch/3.2.0/source/README.md
+# Learn more about cargo watch via: `cargo watch -h`
