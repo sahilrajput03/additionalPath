@@ -1,0 +1,16 @@
+{
+  "name": "testingserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonbackend": "^1.0.26"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
