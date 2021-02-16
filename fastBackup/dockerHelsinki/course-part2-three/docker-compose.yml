@@ -1,0 +1,38 @@
+version: "3.5"
+
+services:
+  db:
+    image: postgres
+    restart: unless-stopped
+    # This specifies that with running `docker-compose up` after first time will not reboot this container, yikes!!
+    environment:
+      POSTGRES_PASSWORD: example
+    container_name: postgresContainer
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  redmine:
+    image: redmine
+    environment:
+      - REDMINE_DB_POSTGRES=db
+      - REDMINE_DB_PASSWORD=example
+    container_name: redmineContainer
+    ports:
+      - 9999:3000
+    volumes:
+      - files:/usr/src/redmine/files
+    depends_on:
+      - db
+  # depends_on : This makes sure that the that db service should be started first. depends_on does not guarantee that the database is up, just that the service is started first.
+
+  adminer:
+    image: adminer
+    restart: always
+    environment:
+      - ADMINER_DESIGN=galkaev
+    ports:
+      - 8083:8080
+
+volumes:
+  database:
+  files:

@@ -1,0 +1,400 @@
+>>indicator-multiload
+>>indicator-netspeed-unity >> nice>> prefix as binary
+	{https://askubuntu.com/questions/847791/how-to-install-indicator-netspeed-in-ubuntu-16-10			
+paste the below two commands to terminal-
+
+wget http://ppa.launchpad.net/fixnix/netspeed/ubuntu/pool/main/i/indicator-netspeed-unity/indicator-netspeed-unity_1.04-yakkety0_amd64.deb
+sudo dpkg -i indicator-netspeed-unity_1.04-yakkety0_amd64.deb
+
+	}
+
+
+
+keyboard>> 
+ctrl+shift+w > close current tab in terminal
+	  +q > close entire terminal
+alt+ 1,2,    > shuffle tabs in terminal
+
+move a window just press 
+alt+drag(pressing and holding)
+
+
+		---
+
+INSTALLING WINE::
+1. For 64-bit system, run command to enable 32 bit architecture:
+- sudo dpkg --add-architecture i386
+
+2 - sudo add-apt-repository ppa:wine/wine-builds
+
+3 - sudo apt-get update
+
+4 - sudo apt-get install --install-recommends winehq-devel
+
+5 - winecfg
+		---
+
+installing java 
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
+
+
+
+
+
+sudo su
+sudo -i
+su
+
+>> these all do same work 
+>> to exit root user >> 
+exit
+
+
+use touch to create file like
+sudo touch file.extention
+
+
+
+
+
+____________________________________________________________
+ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+______________________________________________________________
+
+
+1>>sudo services apache2 start
+		     					 stop
+2>>sudo systemctl reload apache2
+		--
+
+systemctl - Control the system and service manager
+		--
+
+ARTICLE: How To Move an Apache Web Root to a New Location on Ubuntu 16.04
+https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
+	-
+>> CONCLUSIONNN.
+YOU HAVE TO EDIT THREE PLACES::
+TWICE TIMES IN >> 	/etc/apache2/sites-available/000-default.conf
+ONCE IN >> 		default0ssl.conf
+		--
+
+https://askubuntu.com/questions/174872/how-do-i-install-truecrypt
+
+		--
+
+task manager: gnome-system-monitor
+		--
+
+The syntax to open any file in its default application is
+xdg-open <file_name>
+
+		---
+xinput list
+xinput float 9        > to disable
+xinput reattach 9 3   > to enable
+
+
+sudo wondershaper interface wlp3s0 downloadspeed uploadspeed
+speed in kilobits onlyy..
+
+
+
+Linux's file permissions system mainly consists of 3 parts
+	1.read/write/execute privileges
+	2.user/group ownership
+	3.acls
+
+
+
+who
+chvt
+w
+evince <<the document viewer
+
+ln << linking a file
+
+
+
+A; B    Run A and then B, regardless of success of A
+A && B  Run B if A succeeded
+A || B  Run B if A failed
+A &     Run A in background.
+
+ps -au : show processes for all users
+ps -15 _id_ soft kill > cannot kill bash windows
+ps -9 _id_ hard kill
+fg %<job number>
+find / -name <text to search in filename or folder name>
+
+
+		--
+tar xvfz file.tar.gz
+       ^this is only for file with >> .gz
+./configure
+make
+make install
+
+
+
+
+x=extract
+v=feedback
+f=filename
+z=compressed file
+
+sudo apt-get install gdebi
+{gdebi can install the .deb files easily, and one can install the .deb file by right clicking and opening with gdebi}
+
+sudo apt-get <> <> <> <> -y
+>>{this implies auto yes to all the confirmations to be asked during the execution of apt-get}
+>>also 
+yes | sudo apt-get
+can also be used to force yes to all the confirmations to apt-get.
+
+
+
+
+>>installing veracrypt
+downwload and run the file directly (after extracting  only)
+
+>> installing keepassx
+sudo apt-get install keepassx -y
+
+
+>>extracting compressed files>  	.tar	, 	.tar.gz		,	.tar.bz2
+
+	tar -xvf file.tar
+	tar -xzvf file.tar.gz		
+	tar -xjvf file.tar.bz2
+
+Where,
+	-x : Extract a tar ball.
+	-v : Verbose output or show progress while extracting files.
+	-f : Specify an archive or a tarball filename.
+	-j : Decompress and extract the contents of the compressed archive created by bzip2 program (tar.bz2 extension).
+	-z : Decompress and extract the contents of the compressed archive created by gzip program (tar.gz extension).
+	
+
+>>extracting single file/folder from the file
+ just specify the file/folder path in the zip file after the command i.e.,  tar -xzvf file.tar.gz	 <file/folder>
+
+______________________________________
+>>Copy a complete folder to another folder using cp command:
+cp -R source destination/
+*If destination doesn't exist, it will be created.
+
+echo $PATH
+	{dispalys the  value of  $PATH environment variable in the system	}
+>>Adding path of a program to $PATH environment variable
+export PATH=$PATH:/path/to/my/program
+_______________________________________________________________________________________
+**jdk include jre inside, so need of installing jre if  you are installing jdk.
+____________________________________________
+Installing java (JRE):	search "download java" in google.
+https://www.java.com/en/download/
+1.download and extract the .tar.gz file to any location but prefer > 	/urs/java/
+2. add the path of  the commands to the $PATH environment variable i.e 	/usr/java/jre1.X.XX.XX/bin
+with the command 
+						export PATH=$PATH:/usr/java/jre1.X.XX.XX/bin
+verification:		java -version
+________________________________________________
+Installing java (JDK):		search "download jdk" in google.
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+1.download and extract the .tar.gz file to any location but prefer > 	/urs/java/
+2. add the path of  the commands to the $PATH environment variable i.e 	/usr/java/jdk1.X.XX.XX/bin
+with the command 
+						export PATH=$PATH:/usr/java/jdk1.X.XX.XX/bin
+verification: 		javac -version						
+_______________________________________________________
+
+Installing netbeans
+1.Download netbeans for ALL
+2.Give executing permission to the file via 
+chmod +x <file-name>
+3.execute via command
+./<file-name>
+
+__________________________________________________________
+rmdir *
+	{removes all the empty folders in the current working directory}
+
+________________-
+
+rm  -r <folder-name>
+	{removes the folder /folders  along with the contents in it.}
+rm <file-name>
+	{remove the file/files  }
+*with -i option we can make shell to ask for every file before deleting it.
+e.g.,	rm -ri <folder/file>
+_______________________-
+Unzipping a  .zip file
+unzip file.zip -d destination_folder
+
+______________________
+by default python is installed on ubuntu as
+python2, python3
+
+
+_____________________________________________-
+ssh in ubuntu
+sudo apt-get install openssh-server
+sudo service ssh status
+sudo nano /etc/ssh/sshd_config
+sudo service ssh restart
+
+
+
+
+
+_____________________________________________________________________________________________________________________________________-
+
+
+
+setfacl -m u:exp2:rw /file1
+getfacl
+setfacl 0m m:r /file1
+at now +2min
+atq
+atrm
+crontab -e
+fdisk -l
+cat /etc/fstab >> show root directory in the disk
+pkill chrome
+pkill vm
+
+	crontab::
+ls /var/spool/cron/		>> location where jobs are stored
+vi /etc/crontab
+
+
+
+
+watch -n 1 date
+watch -n <seconds to update result> <command>
+
+
+
+
+
+links for browsing internet.
+
+backup using tar
+
+sudo tar -cvpzf wwwbackup.tar.gz .
+		^ <file name>	  ^ content <folder name/filename / * for the content of the pwd>
+
+
+Linux to Linux LVM 
+using  system id>> 8e
+			Physical_Volume > Volume_Group > Logical_Volume
+
+physical volume = partitions
+lvremove <partitions>			<< for removing partition removing
+mvremove <disks>			<< for removing volume group
+pvremove <partitions>			<< for wiping a partition
+pvcreate <partitions>			<< for creating physical volume
+vgcreate <volume-group-name> <partitionS>			<< for creating volume group with given name	
+
+
+vgscan
+vgdisplay <volume-group-name>
+vgreduce <volume-group-name>		<< for removing volume-group
+
+lvcreate -n <logical-name> -L +400 <volume-group-name>		<< for creating logical volume of size			^^ in volume ^^.
+
+lvextend -L +500M /dev/netm/lvl			<< extends logical volume by 500 mb
+lsblk
+pvdisplay | more
+init 6
+
+lvremove /dev/remove/<volume-group-name> 	<< deletes all logical in volume
+vgremove /dev/<>volume-group-name>		<< delete volume group
+pvremove /dev/sda5 /dev/sda6 /dev/sda7		<< wjpes physical volumes
+
+mkfs 0t xfs /dev/sahil/l1 			<< creating filesystem for l1 in sahil(volume group)
+
+mount /dev/sahil/l1 <directory>				<< mount to directory
+df -h 						<< show the mount point of the logical of volume group
+xfs_growfs /dev/sahil/l1			<< for creating filesystem for newly 
+								extended in l1 
+
+nano /etc/fstab
+/dev/mapper/sahil-l1	root/newfolder	xfs	defaults	0	0
+
+init 6 						<< restarting
+
+
+
+
+
+>>Server is the computer to which we are connecting.
+>>And we are client if we're connecting.
+
+ssh ip-address <commands not compulsory>		: 
+{secure shell}
+
+scp root@<ip-address-of-server>:/<file-in-server> <local directory-in-client>
+{secure copy}
+
+>>Vice-versa for copy to the server i.e., scp root@<ip-address-of-server>:<local directory-in-client> /<file-in-server> 
+
+ifconfig <network-interface> <ipaddress> netmask 255.255.255.0
+/etc/resolv.conf
+
+subscription-manager register- --username admin-example
+
+
+>>A service is a true-blooded Windows process, no difference there. The only thing that's special about a service is that it is started by the operating system and runs in a separate session. An isolated one that keeps it from interfering with the desktop session. Traditionally named a daemon.
+
+
+
+>>An application is a program which you interact with on the desktop.
+
+A process is an instance of a particular executable (.exe program file) running.
+
+A service is a process which runs in the background and does not interact with the desktop. In Windows, services almost always run as an instance of the svchost.exe process, the windows service host process; however there are sometimes exceptions to this.
+
+Sometimes, processes may run in the background without interacting with the desktop, but without being installed as a service.
+
+Antivirus programs usually employ a service so they can continue running even when the user is not logged in.
+
+Processes usually exit when an application is closed, however this is not always the case. Some programs, particularly download and backup programs, may continue to run in the background without displaying any windows. Antivirus is also an example of this - in addition to using a service, many antivirus applications run a process silently in the background which only displays an application to the user when action is required.
+
+Please give me better information about service. Thanks.
+
+
+
+
+>>Modern tar recognizes the format by itself! One command works with any supported compression method.
+
+tar xf archive.tar.xz
+tar xf archive.tar.gz
+tar xf archive.tar
+
+_______________________________________________
+installing pip3 for python3
+sudo apt-get install python3-pip
+call it by pip3
+
+________________________________________________________________________________
+./configure
+make
+			* make test 		>> not used everywhere
+su root
+make install     >>to install in /usr/local
+___________________________________________________________________________________-
+
+
+make is a utility for building and maintaining groups of programs (and other types of files) from source code.
+The purpose of the make utility is to determine automatically which pieces of a large program need to be re-compiled, and issue the commands necessary to recompile them. 
+
+______________________________________________________________________________________
+To extract rar files with 7-zip:
+
+sudo apt-get install p7zip-full
+7z x some.rar
+
+_________________________________________________________________________________________
+

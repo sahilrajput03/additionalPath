@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  whoami:
+    image: jwilder/whoami
+    ports:
+      - 8000:8000
+    environment:
+      - VARIABLE=RedundantThough
+      - AnotherVARIABLE=123

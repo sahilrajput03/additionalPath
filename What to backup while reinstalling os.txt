@@ -1,0 +1,6 @@
+* Copy sublime settings to its gist.
+* Backup conemu's config.
+* ~/.config/fish/config.fish 		# I.e., fishbashrc
+* ~/.bashrc 										# From conemu
+* ~/.gitconfig 									# For git aliases!
+* Every config file from `~`, i.e., "C:\msys64\home\chetan".

@@ -1,0 +1,1 @@
+echo Y | SchTasks /Delete /TN ClouDNS /F

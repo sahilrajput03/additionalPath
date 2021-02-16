@@ -1,0 +1,18 @@
+Smart solution:
+
+docker run -d -it --name devops1 ubuntu:16.04 sh -c 'apt update -y; apt upgrade -y; apt install curl -y; read ENTER_KEY; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+**********************
+General solution:
+
+docker run -d -it --name devops1 ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+docker exec -it devops1 bash
+
+apt update #Check if this supports -y flag too. ?
+
+apt upgrade #Check if this supports -y flag too. ?
+
+apt install curl -y
+
+

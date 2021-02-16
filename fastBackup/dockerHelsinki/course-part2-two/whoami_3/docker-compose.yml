@@ -1,0 +1,33 @@
+version: "3.5"
+
+services:
+  whoami:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=whoami.*
+  # (scaling conflic due to below property)
+  #    container_name: whoami
+
+  proxy:
+    image: jwilder/nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock
+    ports:
+      - 80:80
+    container_name: nginx-proxy
+
+  hello:
+    image: nginx
+    volumes:
+      - ./hello.html:/usr/share/nginx/html/index.html
+    environment:
+      - VIRTUAL_HOST=hello.*
+    container_name: nginx-hello
+
+  world:
+    image: nginx
+    volumes:
+      - ./world.html:/usr/share/nginx/html/index.html
+    environment:
+      - VIRTUAL_HOST=world.*
+    container_name: nginx-world

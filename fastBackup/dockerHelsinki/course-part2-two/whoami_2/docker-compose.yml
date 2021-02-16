@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  whoami:
+    image: jwilder/whoami
+    ports:
+# Now, docker daemon assign any random port on host to bind with internal 8000, 
+# as we are now only specifying the container port, in below instruction.
+      - 8000
+    environment:
+      - VARIABLE=RedundantThough
+      - AnotherVARIABLE=123

@@ -1,0 +1,17 @@
+FROM alpine:3.11 
+
+WORKDIR /app 
+
+ENV LC_ALL=C.UTF-8 
+
+RUN apk add --no-cache curl python ca-certificates && \ 
+    curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && \ 
+    chmod a+x /usr/local/bin/youtube-dl && \ 
+    apk del curl && \ 
+    adduser -D app && \
+    chown -R app /app
+
+USER app 
+
+
+ENTRYPOINT ["/usr/local/bin/youtube-dl"] 

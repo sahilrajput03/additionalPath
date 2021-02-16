@@ -1,0 +1,11 @@
+version: "3"
+services:
+  youtube-dl:
+    image: youtubedl-img
+    # Note:(Psycho error thing) youtube-dl-img is not a valid name!
+    build: .
+    command: "https://imgur.com/JY5tHqr"
+    container_name: youtube-dlCont
+    # volumes:
+    # - ./downloads:/app
+# docker-compose run youtube-dl https://imgur.com/JY5tHqr

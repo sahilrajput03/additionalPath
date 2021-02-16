@@ -1,0 +1,7 @@
+Script started on 2020-11-23 21:53:29+05:30 [TERM="xterm-256color" TTY="/dev/pty4" COLUMNS="191" LINES="45"]
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+5c2e013936c2        nginx               "/docker-entrypoint.…"   6 minutes ago       Exited (0) 5 minutes ago                       sharp_jang
+f8e402db5520        nginx               "/docker-entrypoint.…"   6 minutes ago       Exited (0) 5 minutes ago                       elastic_lumiere
+33a3a3aac1d7        nginx               "/docker-entrypoint.…"   7 minutes ago       Up 7 minutes               80/tcp              nifty_benz
+
+Script done on 2020-11-23 21:53:29+05:30 [COMMAND_EXIT_CODE="0"]
