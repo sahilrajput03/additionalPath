@@ -1,0 +1,9 @@
+{
+  "name": "jsonbackend_ngrok",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jsonbackend": "^1.0.26"
+  }
+}

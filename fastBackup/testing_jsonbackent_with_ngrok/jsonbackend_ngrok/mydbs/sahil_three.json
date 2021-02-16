@@ -1,0 +1,8 @@
+{
+	"coffee": 10,
+	"tea": 20,
+	"market": [
+		"beans",
+		"mutton"
+	]
+}

@@ -1,0 +1,36 @@
+Arguments: 
+  C:\nodejs\node.exe C:\msys64\home\chetan\.yarn\bin\yarn.js init
+
+PATH: 
+  C:\msys64\home\chetan\.yarn\bin;C:\msys64\home\chetan\.config\yarn\global\node_modules\.bin;C:\msys64\usr\local\bin;C:\msys64\usr\bin;C:\msys64\usr\bin;C:\msys64\opt\bin;C:\msys64\usr\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\chetan\AppData\Local\Android\Sdk\platform-tools;C:\adb;C:\Program Files\PuTTY;C:\Program Files\Amazon\AWSCLI;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\Microsoft\Web Platform Installer;C:\xampp\php;C:\Program Files (x86)\Streamlink\bin;C:\ffmpeg\bin;C:\youtube-dl;C:\ProgramData\chocolatey\bin;C:\newPath;C:\Program Files\Typora;C:\Program Files\Pandoc;C:\Users\chetan\.deno\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\chetan\AppData\Roaming\npm;C:\Users\chetan\AppData\Roaming\nvm;C:\nodejs;C:\watchmanbyFB\bin;C:\additionalPath;C:\Users\chetan\Desktop\Rapid Growth\readingFileGeneratingGlobalPackageList;C:\Program Files\Sublime Text 3;C:\msys64\usr\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Calibre2;C:\Program Files\ISC BIND 9\bin;C:\additionalPath\colortool;C:\Program Files (x86)\Yarn\bin;C:\Users\chetan\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\chetan\AppData\Local\Programs\Python\Python39;C:\Users\chetan\scoop\shims;C:\Users\chetan\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\chetan\AppData\Local\Programs\Python\Python38;C:\Ruby26-x64\bin;C:\Users\chetan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\chetan\AppData\Local\GitHubDesktop\bin;C:\Users\chetan\AppData\Local\atom\bin;C:\Program Files\heroku\bin;C:\Program Files\IPFS Desktop\resources\app.asar.unpacked\out\ipfs-on-path\scripts\bin-win;C:\Users\chetan\AppData\Roaming\nvm;C:\nodejs;C:\Users\chetan\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files (x86)\GitHub CLI;C:\msys64\usr\local\bin;C:\Users\chetan\AppData\Local\Yarn\bin;C:\Program Files\Docker Toolbox;C:\msys64\usr\bin\site_perl;C:\msys64\usr\bin\vendor_perl;C:\msys64\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\msys64\home\chetan\.yarn\lib\cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
