@@ -4,7 +4,7 @@
 rm -rf blazepack/node_modules/ #deletes any residues of any previous node_modules
 mkdir blazepack 2> /dev/null
 
-cp -r node_modules blazepack/
+cp -r node_modules blazepack/ 2> /dev/null
 rm -rf node_modules
 
 cd blazepack
@@ -14,4 +14,5 @@ fi
 
 yarn $* 1> /dev/null 2> /dev/null
 cp -r node_modules ../
+
 rm -rf node_modules
