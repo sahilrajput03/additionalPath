@@ -1,2 +1,2 @@
 #!/bin/bash
-winpty blazepack.cmd
+winpty blazepack.cmd $*
