@@ -1,18 +1,18 @@
 #!/bin/bash
 #INFO: by => blazeyarn
 #usage: bp add @types/react @types/react-dom
-rm -rf blazepack/node_modules/ #deletes any residues of any previous node_modules
-mkdir blazepack 2> /dev/null
+rm -rf .codesandbox/blazepack/node_modules/ #deletes any residues of any previous node_modules
+mkdir .codesandbox/blazepack 2> /dev/null
 
-cp -r node_modules blazepack/ 2> /dev/null
+cp -r node_modules .codesandbox/blazepack/ 2> /dev/null
 rm -rf node_modules
 
-cd blazepack
+cd .codesandbox/blazepack
 if [ ! -f "package.json" ]; then #This then block executes only if file doesn't exist.
     yarn init -y 1> /dev/null 2> /dev/null
 fi
 
 yarn $* 1> /dev/null 2> /dev/null
-cp -r node_modules ../
+cp -r node_modules ../../
 
 rm -rf node_modules
