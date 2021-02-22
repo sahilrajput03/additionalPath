@@ -1,0 +1,15 @@
+beware: scrcpy only works when connected with adb provided in the same folder(this vesion of adb is compartible).
+
+1. OPEN CMD IN THIS FOLDER, 2. adb connect 192.168.43.1:5555, 3. scrcpy
+
+
+https://github.com/Genymobile/scrcpy/blob/master/README.md
+
+
+
+There is no visual feedback, a log is printed to the console.
+
+The target directory can be changed on start:
+
+scrcpy --push-target /sdcard/foo/bar/
+****

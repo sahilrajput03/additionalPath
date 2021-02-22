@@ -1,0 +1,12 @@
+•Screen off (keep mirroring): Ctrl+O
+••Set screen good: Ctrl+g, Ctrl+x
+•Notifications: Ctrl+N
+••To collapse(Ctrl+shift+N / ESC)
+•App Switch: Ctrl+S
+•Full screen mode: Ctrl+F
+•Remove black border: Ctrl+X
+•Rotate Screen: Ctrl+R
+•Power Button: Ctrl+P
+•Volume: Ctrl+ UP/DOWN
+•Home: RightClick / Ctrl+H
+•To push a file to /sdcard/ on the device, drag & drop a (non-APK) file to the scrcpy window.
