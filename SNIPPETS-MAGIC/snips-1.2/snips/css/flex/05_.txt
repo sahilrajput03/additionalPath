@@ -1,0 +1,7 @@
+/* Basically justify-content has to do in same axis as flex-direction, yikes!!*/
+
+/* justify-content: flex-start is default for justify-content. */
+/* justify-content: flex-end */
+/* justify-content: center*/
+/* justify-content: space-between*/
+/* justify-content: space-around , in this case space will be in the end of each sides too, yikes...*/

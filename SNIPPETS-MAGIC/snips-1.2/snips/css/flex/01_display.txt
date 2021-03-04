@@ -1,0 +1,4 @@
+.class1{
+	display: flex;
+}
+/* Using flex-direction as row is optiona here, coz its default direction, yikes */
