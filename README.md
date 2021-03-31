@@ -1,4 +1,7 @@
 ## Commands
+
+This repo is updated in linux too.
+
 ••Executables works for both .cmd and .bat files.
 •c => Fast commit only.(provide message as argument{works without agrument too.})
 	important: WE HAVE => 
