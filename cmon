@@ -2,3 +2,10 @@
 t=${*%??}
 #nodemon -q -e c -x "gcc $* -o $t.exe && $t.exe"
 nodemon -q -e c -x "gcc $* -o binary && binary"
+
+# with dhanur.. (works on windows using git-bash).
+nodemon -q -e c -x "gcc $* -o binary && binary || exit 1"
+
+
+# with dhanur.. (works on linux on ubuntu).
+nodemon -q -e c -x "gcc $* -o binary && ./binary || exit 1"
