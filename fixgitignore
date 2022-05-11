@@ -1,3 +1,0 @@
-#!/bin/bash
-echo **/node_modules >> .gitignore
-echo **/.env >> .gitignore
