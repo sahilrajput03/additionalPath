@@ -1,7 +1,0 @@
-#!/bin/bash
-winpty npm.cmd start -s
-#This script actually solves the problem that arises when we press ctrl+c 
-# to terminate the currently running process but it does't kills it, and
-# exits the process, that keeps program running, this problem is of msys2(and
-# not related to fish in anyway. Also, for msys2, we need to install winpty 
-# by our own.)
