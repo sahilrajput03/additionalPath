@@ -1,3 +1,7 @@
+# CLEAR UP THE FOLDERS AND MOVE THEM APPROPRIAVTELY TO valuable for merging them archlinux config in new ways. ~Sahil, 12 May, 2022.
+
+# README
+
 ## Commands
 
 This repo is updated in linux too.
