@@ -1,4 +1,0 @@
-rf.bat
-:: git clone https://github.com/sahilrajput03/react-fast-refresh-boilerplate rf
-:: cd rf
-:: rm -rf .git

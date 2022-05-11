@@ -1,2 +1,0 @@
-start notepad
-echo Hello
