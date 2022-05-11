@@ -1,8 +1,0 @@
-#!/bin/bash
-if docker ps -aq | grep ""
-then
-	docker rm -f $(docker ps -aq)
-	echo "#My log: Successfully removed containers with above listed ids."
-else
-	echo "#My Log: There are no containers."
-fi
