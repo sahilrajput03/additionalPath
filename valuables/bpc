@@ -1,3 +1,0 @@
-#!/bin/bash
-blazepack create $* --template=react
-#INFO: https://github.com/ameerthehacker/blazepack
